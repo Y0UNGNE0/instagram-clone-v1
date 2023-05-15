@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+.insta
+{
+    margin: 0 90px;
+}
+.insta header{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 25px;
+    align-items: center;
+    border-bottom: 1px solid #c9cdc9 ;
+    margin-right: 70px;
+    margin-left: 70px;
+    
+}
+
+.logo img
+{
+   width: 125px;
+  
+}
+.nav_list
+{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  /* padding-left: 800px; */
+}
+.nav_list_item
+{
+    font-size: 25px;
+    margin-left: 21.5px;
+    
+    
+}
+
+.nav_list_item img
+{
+  
+  width: 50px ;
+  border-radius: 50%;
+  /* margin-left: 10px; */
+  
+}
+.search
+
+{   
+    display: flex;
+    align-content: center; 
+    justify-content: center; 
+
+    
+}
+.search input{
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+.fa-magnifying-glass
+{
+   
+   margin-top: 2px;
+}
+.story
+{   display: flex;
+    margin-top: 24px;
+    margin-left: 48px;
+    
+
+}
+.stories img
+{
+    border-radius: 200px;
+    width: 64px;
+    height: 64px;
+    margin-left: 22px;
+    border: 1px solid #c62d8f;
+    padding: 2px;
+    object-fit: cover;
+  
+}
+.stories p
+{
+    text-align: center;
+    margin-left: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 8ch;
+    white-space: nowrap;
+    
+}
+.posts
+{   
+    border: 1px solid rgb(209, 205, 205);
+    border-radius: 10px 10px 10px 10px ;
+    width:680px ;
+    margin-left:70px ;
+    margin-top: 13px;
+    margin-bottom: 15px;
+}
+.post-title
+{
+display: flex;
+justify-content: space-between;
+/* border: 1px solid rgb(209, 205, 205);
+border-radius: 10px 10px 0 0 ; */
+width: 500px;
+/* margin-left: 70px; */
+margin-right: 90px;
+padding-bottom: 9px;
+margin-top:5px;
+}
+.post-left
+{
+    display: flex;
+    
+}
+.post-image img
+{
+    width:35px;
+    height: 35px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-left:10px;
+    border-radius: 200px;
+    border: 1px solid #c62d8f;
+    padding: 2px;
+    
+}
+.details
+{   margin-top: 10px;
+    margin-left: 10px;
+}
+ .post-right
+ {   margin-top: 13px; 
+     margin-left: 200px; 
+     margin-right: 9px;     
+} 
+.post-right i
+{
+    margin-left: 330px;
+}
+.post-content img
+{   
+    width: 100%;
+}
+.engagement-section
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    align-items: center;
+    /* margin-left: 59px; */
+}
+
+.left-icon{
+    display: flex;
+    
+}
+
+.left-icon span
+{   
+    
+    margin-left: 12px;
+    font-size: 24px;
+    
+}
+
+.right-icon span
+{   
+    
+    margin-right: 12px; 
+    font-size: 24px;
+    
+}
+.comment-section
+{
+    margin-left: 12px ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.addcomment-section
+{   border-top: 1px solid rgb(209, 205, 205) ;
+    padding: 12px 12px;
+    margin-top: 10px;
+}
+.addcomment-section input
+{
+   border: none;
+   margin-left: 10px;
+   outline: none;
+}
+.addcomment-section i{
+    font-size: 21px;
+
+}
+.addcomment-section button{
+    border: none;
+    background-color:white ;
+    font-size: 16px;
+    color: #b3dbff;
+    align-items: flex-end;
+    margin-left: 410px;
+}
+
+
+section
+{
+    display: flex;
+
+}
+.main-account
+{
+    display: flex;
+    margin-top: 26px;
+    align-items: center;
+    margin-left: 128px;
+
+}
+.right-side img
+{  
+    width: 60px;
+    border-radius: 200px;
+    /* margin-top: 23px; */
+    margin-left: 20px;
+    display: flex;
+}
+
+.name p
+{
+     
+     /* padding-top: 7px; */
+     margin-left: 20px;
+     
+}
+.switch
+{
+    margin-left: 150px;
+    color: #0095f6;
+    
+}
+.seeyoull-section
+{
+    margin-left: 160px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+.suggestion-account
+{
+    display: flex;
+    margin-top: 26px;
+    align-items: center;
+    margin-left: 128px;
+ 
+}
+.main-account
+{
+    display: flex;
+    margin-top: 26px;
+    align-items: center;
+    margin-left: 128px;
+
+}
+.suggestion-account img
+{  
+    width: 35px;
+    border-radius: 200px;
+    /* margin-top: 23px; */
+    margin-left: 40px;
+    display: flex;
+}
+
+.name-su 
+{
+     
+     /* padding-top: 7px; */
+     margin-left: 20px;
+     
+}
+.Follow
+{
+    margin-left: 150px;
+    color: #0095f6;
+    
+}
+.water-mark
+{   margin-top: 20px;
+    margin-left: 180px;
+}
